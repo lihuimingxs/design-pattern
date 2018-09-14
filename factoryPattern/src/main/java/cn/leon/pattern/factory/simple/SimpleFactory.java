@@ -6,10 +6,11 @@ import cn.leon.pattern.factory.Food;
 
 /**
  * 简单工厂
+ * （深夜食堂）
  * @author Leon
  */
 public class SimpleFactory {
-
+    // 菜单
     public Food getDelicious(String foodName) {
         if ("BakedRaengmyeon".equals(foodName)) {
             return new BakedRaengmyeon();
