@@ -1,12 +1,12 @@
 package cn.leon.pattern.factory;
 
 /**
- * 烤冷面
+ * 蛋堡
  * @author Leon
  */
-public class BakedRaengmyeon implements Food{
+public class EggBurger implements Food{
     @Override
     public String getName() {
-        return "烤冷面";
+        return "蛋堡";
     }
 }
